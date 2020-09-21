@@ -1,0 +1,7 @@
+<configuration>
+    <input>
+        <net-file value="200m_2lane.net.xml"/>
+        <route-files value="200m_2lane.rou.xml"/>
+        <step-length value="0.25" />
+    </input>
+</configuration>

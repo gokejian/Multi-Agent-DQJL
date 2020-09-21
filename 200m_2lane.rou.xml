@@ -1,0 +1,33 @@
+<routes>
+   <vType id="car"
+   			vClass="passenger" length="5" accel="3.5" decel="7" guiShape="passenger/sedan" emergencyDecel="9"
+   			 minGap="0.2" maxSpeed="7" actionStepLength = "0.1"
+                
+                lcStrategic="0.0" lcCooperative="1.0" />
+
+
+   <vType id="EV"
+   			vClass="emergency" guiShape="emergency" length="6.5" accel="4" decel="6" emergencyDecel="7"
+   			 minGap="0.2" maxSpeed="13"/>
+                
+   <route id="route0" edges="E1" />
+    
+    <!-- <vehicle id="0" type="car" route="route0" depart="0" departSpeed = "5" departLane = "1" departPos = "0"/>
+    <vehicle id="1" type="car" route="route0" depart="0" departSpeed = "5" departLane = "1" departPos = "12"/>
+    <vehicle id="2" type="car" route="route0" depart="0" departSpeed = "5" departLane = "1" departPos = "24"/>
+    <vehicle id="3" type="car" route="route0" depart="0" departSpeed = "5" departLane = "1" departPos = "36"/>
+    <vehicle id="4" type="car" route="route0" depart="0" departSpeed = "5" departLane = "1" departPos = "48"/>
+    <vehicle id="5" type="car" route="route0" depart="0" departSpeed = "5" departLane = "1" departPos = "50"/>
+    <vehicle id="6" type="car" route="route0" depart="0" departSpeed = "5" departLane = "1" departPos = "62"/>
+    <vehicle id="7" type="car" route="route0" depart="0" departSpeed = "5" departLane = "0" departPos = "0"/>
+    <vehicle id="8" type="car" route="route0" depart="0" departSpeed = "5" departLane = "0" departPos = "12"/>
+    <vehicle id="9" type="car" route="route0" depart="0" departSpeed = "5" departLane = "0" departPos = "24"/>
+    <vehicle id="10" type="car" route="route0" depart="0" departSpeed = "5" departLane = "0" departPos = "36"/>
+    <vehicle id="11" type="car" route="route0" depart="0" departSpeed = "5" departLane = "0" departPos = "48"/>
+    <vehicle id="12" type="car" route="route0" depart="0" departSpeed = "5" departLane = "0" departPos = "50"/>
+    <vehicle id="13" type="car" route="route0" depart="0" departSpeed = "5" departLane = "0" departPos = "62"/>
+ -->
+
+    <!-- <vehicle id="3" type="car" route="route0" depart="0" departSpeed = "5" departLane = "1" departPos = "60"/>
+    <vehicle id="4" type="car" route="route0" depart="0" departSpeed = "5" departLane = "1" departPos = "80"/> -->
+</routes>
